@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ShopEase demo online store">
+  <title>ShopEase | Online Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/">ShopEase<span>.</span></a>
+    <nav aria-label="Main navigation"><a href="#products">Shop</a><a href="#about">About</a></nav>
+    <button class="cart-button" id="cart-toggle">Cart <span id="cart-count">0</span></button>
+  </header>
+  <main>
+    <section class="hero">
+      <div><p class="eyebrow">A SIMPLE ONLINE STORE DEMO</p>
+        <h1>Find your next<br><span>everyday essential.</span></h1>
+        <p class="hero-copy">Explore useful products selected for work, travel and everyday life.</p>
+        <a class="primary-link" href="#products">Explore products</a>
+      </div>
+      <div class="hero-art" aria-hidden="true"><span>SHOP<br>SMART.</span></div>
+    </section>
+    <section class="catalogue" id="products">
+      <div class="section-heading"><div><p class="eyebrow">OUR COLLECTION</p><h2>Popular products</h2></div>
+        <input id="search" type="search" placeholder="Search products..." aria-label="Search products">
+      </div>
+      <div id="category-filters" class="filters"></div>
+      <p id="status" class="status" role="status">Loading products...</p>
+      <div id="product-grid" class="product-grid"></div>
+    </section>
+    <section class="about" id="about"><p class="eyebrow">ABOUT THIS PROJECT</p>
+      <h2>Shopping made simple.</h2>
+      <p>This demo shows a responsive product catalogue connected to a Spring Boot REST API. Cart contents are stored in your browser for this demonstration.</p>
+    </section>
+  </main>
+  <aside class="cart-panel" id="cart-panel" aria-label="Shopping cart" aria-hidden="true">
+    <div class="cart-heading"><h2>Your cart</h2><button id="close-cart" class="icon-button">×</button></div>
+    <div id="cart-items" class="cart-items"></div>
+    <div class="cart-footer"><div class="total-line"><span>Total</span><strong id="cart-total">₹0.00</strong></div>
+      <button id="checkout" class="checkout-button">Demo checkout</button><p class="fine-print">Demo only — no payment is collected.</p>
+    </div>
+  </aside>
+  <div id="overlay" class="overlay"></div>
+  <footer><span>ShopEase Demo</span><span>Built with Spring Boot + Java</span></footer>
+  <script src="app.js"></script>
+</body>
+</html>
