@@ -43,7 +43,7 @@ Example POST body:
   "category": "Electronics",
   "price": 1499.00,
   "stock": 20,
-  "imageUrl": "https://images.unsplash.com/photo-150"
+  "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e"
 }
 ```
 
