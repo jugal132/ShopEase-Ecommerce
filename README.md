@@ -1,5 +1,10 @@
 # ShopEase – E-commerce Web Application
 
+**Project by [Jugal Nagar](https://github.com/jugal132)**  
+[LinkedIn](https://www.linkedin.com/in/jugal-nagar-255207291/) · [GitHub](https://github.com/jugal132)
+
+This is a personal portfolio project by Jugal Nagar, developed with AI-assisted implementation support. The project is intended for learning and demonstration; please review, run and extend the code before presenting it as independently completed work.
+
 A beginner-friendly full-stack e-commerce demo built with Java 17, Spring Boot, Spring Data JPA, Hibernate, MySQL, HTML, CSS and JavaScript.
 
 ## Features
