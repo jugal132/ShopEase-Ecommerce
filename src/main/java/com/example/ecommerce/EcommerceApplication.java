@@ -20,7 +20,7 @@ public class EcommerceApplication {
                 repository.save(new Product("Wireless Headphones",
                         "Comfortable wireless headphones with clear sound.",
                         "Electronics", 1499.00, 20,
-                        "https://images.unsplash.com/photo-150"));
+                        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e"));
                 repository.save(new Product("Everyday Backpack",
                         "Lightweight backpack for college and travel.",
                         "Accessories", 899.00, 15,
